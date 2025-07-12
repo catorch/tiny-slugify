@@ -1,6 +1,6 @@
 # tiny-slugify
 
-[![npm version](https://badge.fury.io/js/tiny-slugify.svg)](https://npmjs.com/package/tiny-slugify)
+[![npm version](https://img.shields.io/npm/v/tiny-slugify.svg)](https://npmjs.com/package/tiny-slugify)
 [![Bundle size](https://pkg-size.dev/badge/bundle/5675)](https://pkg-size.dev/tiny-slugify)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
