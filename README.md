@@ -1,14 +1,14 @@
 # tiny-slugify
 
 [![npm version](https://img.shields.io/npm/v/tiny-slugify.svg)](https://npmjs.com/package/tiny-slugify)
-[![Bundle size](https://pkg-size.dev/badge/bundle/5675)](https://pkg-size.dev/tiny-slugify)
+[![Bundle size](https://pkg-size.dev/badge/bundle/2854)](https://pkg-size.dev/tiny-slugify/core)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Ultra-lightweight, tree-shakable slug generator with optional transliteration. **Under 1kB** for the core functionality, with locale-specific character maps available as separate, optional imports.
+Ultra-lightweight, tree-shakable slug generator with optional transliteration. **2.8kB** minified (1.4kB gzip) for the core functionality, with locale-specific character maps available as separate, optional imports.
 
 ## Why tiny-slugify?
 
-- **🚀 Tiny**: Core is < 1kB, full API < 2kB
+- **🚀 Tiny**: Core is 2.8kB minified (1.4kB gzip), full API 5.7kB (2.3kB gzip)
 - **🌳 Tree-shakeable**: Import only what you need
 - **🔒 No global state**: Safe for serverless and testing
 - **⚡ Fast**: 2-3x faster than alternatives on large datasets
@@ -278,7 +278,7 @@ echo "Hello World" | npx tiny-slugify --mode=rfc3986
 | -------------- | --------- | ------------ | -------------- | --- |
 | `slugify`      | 12.5kB    | 12.5kB       | ❌             | ❌  |
 | `slug`         | 8.2kB     | 8.2kB        | ❌             | ✅  |
-| `tiny-slugify` | **0.9kB** | **3.8kB**    | ✅             | ✅  |
+| `tiny-slugify` | **2.8kB** | **5.7kB**    | ✅             | ✅  |
 
 ## Performance
 
