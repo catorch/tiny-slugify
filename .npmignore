@@ -1,0 +1,23 @@
+# Source maps (dev only)
+*.map
+
+# Development files
+src/
+tsup.config.ts
+tsconfig.json
+vitest.config.ts
+.gitignore
+
+# Tests
+*.test.ts
+*.test.js
+
+# Examples and docs
+example.js
+slug-main/
+slugify-master/
+
+# Development dependencies
+node_modules/
+.vscode/
+.idea/ 

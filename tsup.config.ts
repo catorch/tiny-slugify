@@ -7,7 +7,7 @@ export default defineConfig([
     dts: true,
     clean: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -15,7 +15,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -23,7 +23,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -31,7 +31,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -39,7 +39,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
 
@@ -48,7 +48,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -56,7 +56,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -64,7 +64,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -72,7 +72,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -80,7 +80,7 @@ export default defineConfig([
     format: ["esm", "cjs"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
   },
   {
@@ -88,7 +88,7 @@ export default defineConfig([
     format: ["esm"],
     dts: true,
     minify: true,
-    sourcemap: true,
+    sourcemap: false,
     outDir: "dist",
     banner: {
       js: "#!/usr/bin/env node",
