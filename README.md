@@ -1,7 +1,7 @@
 # tiny-slugify
 
 [![npm version](https://badge.fury.io/js/tiny-slugify.svg)](https://npmjs.com/package/tiny-slugify)
-[![Bundle Size](https://img.shields.io/bundlephobia/minzip/tiny-slugify)](https://bundlephobia.com/package/tiny-slugify)
+[![Bundle size](https://pkg-size.dev/badge/bundle/5675)](https://pkg-size.dev/tiny-slugify)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Ultra-lightweight, tree-shakable slug generator with optional transliteration. **Under 1kB** for the core functionality, with locale-specific character maps available as separate, optional imports.
